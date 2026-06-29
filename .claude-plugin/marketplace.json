@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace-manifest.json",
+  "name": "perseus-computing",
+  "owner": {
+    "name": "Perseus Computing LLC",
+    "url": "https://github.com/Perseus-Computing-LLC"
+  },
+  "description": "Local-first context & memory MCP servers for AI coding agents — Perseus (live context engine) and Mimir (encrypted persistent memory).",
+  "metadata": {
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "perseus",
+      "source": "./plugins/perseus",
+      "description": "Live context engine — pre-resolves git, services, tests, and memory into a ready context briefing at session start (compile-before-context, not runtime tool calls).",
+      "version": "1.0.0",
+      "author": {
+        "name": "Perseus Computing LLC",
+        "url": "https://github.com/Perseus-Computing-LLC"
+      },
+      "homepage": "https://github.com/Perseus-Computing-LLC/perseus",
+      "repository": "https://github.com/Perseus-Computing-LLC/perseus",
+      "license": "MIT",
+      "keywords": ["context", "context-engineering", "mcp", "agents", "git"],
+      "category": "productivity"
+    },
+    {
+      "name": "mimir",
+      "source": "./plugins/mimir",
+      "description": "Local-first, encrypted (AES-256-GCM) persistent memory MCP server — 43 tools, SQLite + FTS5 hybrid search, single Rust binary, fully offline (no API key or model download).",
+      "version": "1.0.0",
+      "author": {
+        "name": "Perseus Computing LLC",
+        "url": "https://github.com/Perseus-Computing-LLC"
+      },
+      "homepage": "https://github.com/Perseus-Computing-LLC/mimir",
+      "repository": "https://github.com/Perseus-Computing-LLC/mimir",
+      "license": "MIT",
+      "keywords": ["memory", "persistent-memory", "encrypted", "offline", "mcp"],
+      "category": "productivity"
+    }
+  ]
+}
