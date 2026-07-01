@@ -5,7 +5,7 @@ A [Claude Code](https://code.claude.com) plugin marketplace for **local-first co
 | Plugin | What it does |
 |--------|--------------|
 | **perseus** | Live context engine — pre-resolves git, services, tests, and memory into a ready context briefing at session start (compile-before-context, not runtime tool calls). |
-| **mimir** | Local-first, encrypted (AES-256-GCM) persistent memory — 43 MCP tools over SQLite + FTS5 hybrid search, single Rust binary, fully offline. |
+| **mimir** | Mneme, formerly "Mimir" — local-first, encrypted (AES-256-GCM) persistent memory — 46 MCP tools over SQLite + FTS5 hybrid search, single Rust binary, fully offline. |
 
 Both are MIT-licensed and run entirely on your machine.
 
@@ -24,7 +24,7 @@ Add the marketplace, then install either plugin:
 The plugins wire up the MCP servers but expect the underlying binaries on your `PATH`:
 
 - **Perseus** — `pip install perseus-ctx` ([PyPI](https://pypi.org/project/perseus-ctx/))
-- **Mimir** — `curl -sSf https://raw.githubusercontent.com/Perseus-Computing-LLC/mimir/main/scripts/install.sh | sh` (installs to `~/.local/bin/mimir`)
+- **Mneme** (formerly "Mimir") — `curl -sSf https://raw.githubusercontent.com/Perseus-Computing-LLC/mneme/main/scripts/install.sh | sh` (installs to `~/.local/bin/mneme`, symlinked as `mimir` too)
 
 ## How it works
 
@@ -36,7 +36,7 @@ After installing, confirm the servers are connected with `/mcp`.
 ## Links
 
 - Perseus — https://github.com/Perseus-Computing-LLC/perseus
-- Mimir — https://github.com/Perseus-Computing-LLC/mimir
+- Mneme (formerly "Mimir") — https://github.com/Perseus-Computing-LLC/mneme
 
 ---
 

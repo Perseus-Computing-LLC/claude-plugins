@@ -5,7 +5,7 @@
     "name": "Perseus Computing LLC",
     "url": "https://github.com/Perseus-Computing-LLC"
   },
-  "description": "Local-first context & memory MCP servers for AI coding agents — Perseus (live context engine) and Mimir (encrypted persistent memory).",
+  "description": "Local-first context & memory MCP servers for AI coding agents — Perseus (live context engine) and Mneme, formerly \"Mimir\" (encrypted persistent memory).",
   "metadata": {
     "pluginRoot": "./plugins"
   },
@@ -28,14 +28,14 @@
     {
       "name": "mimir",
       "source": "./plugins/mimir",
-      "description": "Local-first, encrypted (AES-256-GCM) persistent memory MCP server — 43 tools, SQLite + FTS5 hybrid search, single Rust binary, fully offline (no API key or model download).",
+      "description": "Mneme, formerly \"Mimir\" — local-first, encrypted (AES-256-GCM) persistent memory MCP server — 46 tools, SQLite + FTS5 hybrid search, single Rust binary, fully offline (no API key or model download).",
       "version": "1.0.0",
       "author": {
         "name": "Perseus Computing LLC",
         "url": "https://github.com/Perseus-Computing-LLC"
       },
-      "homepage": "https://github.com/Perseus-Computing-LLC/mimir",
-      "repository": "https://github.com/Perseus-Computing-LLC/mimir",
+      "homepage": "https://github.com/Perseus-Computing-LLC/mneme",
+      "repository": "https://github.com/Perseus-Computing-LLC/mneme",
       "license": "MIT",
       "keywords": ["memory", "persistent-memory", "encrypted", "offline", "mcp"],
       "category": "productivity"

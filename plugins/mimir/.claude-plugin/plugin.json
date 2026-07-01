@@ -1,15 +1,15 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "mimir",
-  "displayName": "Mimir — Encrypted Persistent Memory",
-  "description": "Local-first, encrypted persistent memory for AI agents: 43 MCP tools over SQLite + FTS5 hybrid search, single Rust binary, fully offline. Exposes the Mimir MCP server to Claude Code.",
+  "displayName": "Mneme — Encrypted Persistent Memory (formerly Mimir)",
+  "description": "Local-first, encrypted persistent memory for AI agents: 46 MCP tools over SQLite + FTS5 hybrid search, single Rust binary, fully offline. Exposes the Mneme MCP server (formerly \"Mimir\") to Claude Code.",
   "version": "1.0.0",
   "author": {
     "name": "Perseus Computing LLC",
     "url": "https://github.com/Perseus-Computing-LLC"
   },
-  "homepage": "https://github.com/Perseus-Computing-LLC/mimir",
-  "repository": "https://github.com/Perseus-Computing-LLC/mimir",
+  "homepage": "https://github.com/Perseus-Computing-LLC/mneme",
+  "repository": "https://github.com/Perseus-Computing-LLC/mneme",
   "license": "MIT",
   "keywords": ["memory", "persistent-memory", "encrypted", "offline", "mcp"],
   "mcpServers": {
