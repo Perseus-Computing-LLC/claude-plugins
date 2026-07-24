@@ -1,8 +1,8 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "mimir",
-  "displayName": "Perseus Vault — Encrypted Persistent Memory (formerly Mimir/Mneme)",
-  "description": "Local-first, encrypted persistent memory for AI agents: 46 MCP tools over SQLite + FTS5 hybrid search, single Rust binary, fully offline. Exposes the Perseus Vault MCP server (formerly \"Mimir\"/\"Mneme\") to Claude Code.",
+  "displayName": "Perseus Vault — Encrypted Persistent Memory",
+  "description": "Local-first, encrypted persistent memory for AI agents: 46 MCP tools over SQLite + FTS5 hybrid search, single Rust binary, fully offline. Exposes the Perseus Vault MCP server to Claude Code.",
   "version": "1.0.0",
   "author": {
     "name": "Perseus Computing LLC",
